@@ -4,7 +4,6 @@ on:
   push
 
 jobs:
-  #asccii_job:
   build_job_1:
     runs-on: ubuntu-latest
     steps:
