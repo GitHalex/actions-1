@@ -23,7 +23,7 @@ jobs:
         run: sleep 10
         
       - name: Test File Exists
-        run: grep -i "dragon" dragon.txt || echo "File not found or no match"
+        run: grep -i "dragon" dragon.txt 
 
   deploy_job_3:
     runs-on: ubuntu-latest
